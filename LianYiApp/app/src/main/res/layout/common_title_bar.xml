@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_title">
+    <RelativeLayout 
+        android:id="@+id/title_bar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:id="@+id/common_constact"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ll_top_bg">
+            <Button 
+                android:id="@+id/constact_group"
+                style="@style/top_group"
+                android:text="好友消息"/>
+            <Button 
+                android:id="@+id/constact_all"
+                style="@style/top_all"
+                android:text="系统消息"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
